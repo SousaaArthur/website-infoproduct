@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+}
+
+.preview-contet{
+    position: absolute;
+    margin-left: 450px;
+}
+
+.background-blur{
+    position: absolute;
+    margin-left: -30rem;
+    background-color: #1c1c1c69;
+    height: 100px;
+    width: 100rem;
+    height: 100rem;
+    z-index: 1;
+}
+
+.preview-ebook-contet{
+    position: absolute;
+    background-color: #363636;
+    height: 690px;
+    width: 500px;
+    border-radius: 10px;
+    overflow: auto;
+    margin: 8px;
+    opacity: 1;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.preview-ebook-contet::-webkit-scrollbar{
+    background-color: #4F4F4F;
+    border-radius: 0px 10px 10px 0px;
+    width: 5px;
+}
+
+.preview-ebook-contet::-webkit-scrollbar-thumb{
+    background-color: #f02d46;
+    border-radius: 10px;
+}
+
+.preview-navbar{
+    background-color: #363636;
+    height: 50px;
+    width: 480px;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.btn-close{
+    position: absolute;
+    margin: 10px;
+    color: #dadada;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-close:hover{
+    color: #f02d46;
+    transform: scale(1.2);
+}
+
+.preview-navbar h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    color: #f02d46;
+    gap: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.preview-navbar span{
+    color: #dadada;
+}
+
+.group-images-preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.group-images-preview img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 39rem;
+    width: 25rem;
+    margin: 3px 0px;
+}

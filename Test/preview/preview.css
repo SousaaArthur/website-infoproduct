@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.preview-ebook{
+    position: absolute;
+    background-color: #363636;
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+    overflow: auto;
+    margin: 0px 50px;
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.preview-ebook::-webkit-scrollbar{
+    background-color: #4F4F4F;
+    border-radius: 0px 10px 10px 0px;
+    width: 5px;
+}
+
+.preview-ebook::-webkit-scrollbar-thumb{
+    background-color: #f02d46;
+    border-radius: 10px;
+}
+
+.preview-navbar{
+    background-color: #363636;
+    height: 50px;
+    width: 480px;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.btn-close{
+    position: absolute;
+    margin: 10px;
+    color: #dadada;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-close:hover{
+    color: #f02d46;
+    transform: scale(1.2);
+}
+
+.preview-navbar h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    color: #f02d46;
+    gap: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.preview-navbar span{
+    color: #dadada;
+}
+
+.group-images-preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.group-images-preview img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+    margin: 3px 0px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/favicon.png" type="image/x-icon">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="../library/fontawesome/css/all.min.css">
+    <!--Main Style CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Style Navbar-->
+    <link rel="stylesheet" href="../style/navbar.css">
+    <!--Preview eBook-->
+    <link rel="stylesheet" href="../style/preview.css">
+    <title>Inicio - Eficiência Pessoal</title>
+</head>
+<body>
+    <!--Start Navbar-->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../imgs/logo.png" alt="Logo Eficiência Pessoal">
+        </div>
+        <div class="options-navbar">
+            <ul class="btn-navbar">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Avaliações</a></li>
+                <li><a href="#" class="btn-buy">Comprar</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/arthurdev._/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+            <i class="fa-brands fa-twitter fa-xl"></i>
+            <i class="fa-brands fa-youtube fa-xl"></i>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Start preview contet-->
+    <!--The preview contet has display none, and will only appear when clicking on the ebook image.-->
+    <div class="hide">
+        <div class="preview-contet">
+            <div class="preview-ebook-contet">
+                <nav class="preview-navbar">
+                    <div class="btn-close" onclick="closePreview()">
+                        <i class="fa-solid fa-xmark fa-2xl"></i>
+                    </div>
+                    <h2><span>eBook:</span> Eficiência Pessoal</h2>
+                </nav>
+                <div class="group-images-preview">
+                    <img src="../imgs/imgs preview eBook/1.png" alt="">
+                    <img src="../imgs/imgs preview eBook/3.png" alt="">
+                    <img src="../imgs/imgs preview eBook/4.png" alt="">
+                    <img src="../imgs/imgs preview eBook/5.png" alt="">
+                    <img src="../imgs/imgs preview eBook/6.png" alt="">
+                    <img src="../imgs/imgs preview eBook/7.png" alt="">
+                    <img src="../imgs/imgs preview eBook/8.png" alt="">
+                    <img src="../imgs/imgs preview eBook/9.png" alt="">
+                    <img src="../imgs/imgs preview eBook/10.png" alt="">
+                </div>
+            </div>
+            <div class="background-blur"></div>
+        </div>
+    </div>
+    <!--End preview contet-->
+
+
+    <section class="main-contet">
+        <div class="group-images">
+            <div class="preview-ebook">
+                <p>
+                    Clique pra <span>visualizar</span>
+                </p>
+                <img src="../imgs/seta.png" alt="" class="img-seta">
+            </div>
+            <img src="../imgs/Tablet e celular eBook.png" alt="" class="img-ebook" onclick="toView()">
+        </div>
+        <div class="call-to-action">
+            <h1>Domine seu tempo e <br>conquiste o <span>sucesso</span>!</h1>
+            <p>
+                Descubra como dominar seu tempo e conquistar o <br> sucesso com o eBook Eficiência Pessoal que irá <br> revolucionar sua vida!
+            </p>
+            <button class="buy-button"><a href="https://pay.kiwify.com.br/vxkFdGu?orbt_src=orbt-vst-0m3cvg9QkTp7GP7hwUYR" target="_blank">Comprar</a></button>
+            <button class="btn-know-more">Saber mais</button>
+        </div>
+    </section>
+    <div class="contet-about">
+        <h1 class="title-about">Sobre</h1>
+        <div class="about-product">
+            <div class="text-about">
+                <h1>Sobre o que é eBook?</h1>
+                <p>Eficiência Pessoal é um eBook que oferece insights e estratégias práticas para ajudar as pessoas a otimizarem seu tempo e serem mais produtivas. Eficiência Pessoal é um eBook que oferece insights e estratégias práticas para ajudar as pessoas a otimizarem seu tempo e serem mais produtivas.  Com dicas para superar obstáculos e manter a eficiência a longo prazo, este ebook é um recurso valioso para aqueles que desejam aproveitar ao máximo seu tempo e alcançar resultados extraordinários em todas as áreas de suas vidas.</p>
+            </div>
+            <img src="../SVGs/time.svg" alt="">
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <!--Preview eBook-->
+    <script src="../Js/preview-ebook.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

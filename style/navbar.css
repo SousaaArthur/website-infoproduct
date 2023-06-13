@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --text-main-color:  #FFFAFA;
+    --color-secudary:  #f02d46;
+    --color-bg-secundary: #1C1C1C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color:  #1c1c1c18;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin: 10px 0px 10px 30px;
+}
+
+.btn-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    margin: 25px;
+}
+
+.btn-navbar a{
+    text-decoration: none;
+    color: var(--text-main-color);
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.btn-navbar a:hover{
+    color: var(--color-secudary);
+}
+
+.btn-buy{
+    background-color: var(--color-secudary);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn-buy:hover{
+    background-color: var(--text-main-color);
+    color: var(--color-secudary);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    color: var(--text-main-color);
+    transition: 0.5s;
+}
+
+.icons a{
+    color: #FFFAFA;
+}
+
+.fa-instagram{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    color: var(--color-secudary);
+}
+
+.fa-twitter{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: var(--color-secudary);
+}
+
+.fa-youtube{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color: var(--color-secudary);
+}
