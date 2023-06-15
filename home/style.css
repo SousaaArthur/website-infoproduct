@@ -225,6 +225,7 @@ a{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding: 5px;
     overflow: hidden;
     transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -292,4 +293,136 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.panel-assessment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-group-assessment{
+    display: flex;
+    margin: 25px;
+    gap: 15px;
+}
+
+.card-assessment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C1C1C;
+    height: 20rem;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.btn-slider{
+    position: absolute;
+    background-color: #f02d46;
+    color: #FFFAFA;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-slider:hover{
+    background-color: #FFFAFA;
+    color: #f02d46;
+}
+
+.btn-right{
+    margin-left: 80rem;
+}
+
+.btn-left{
+    margin-right: 80rem;
+}
+
+.card-assessment img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.card-assessment h3{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    color: #f02d46;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-assessment p{
+    display: flex;
+    text-align: center;
+    color: #cccccc;
+    margin: 0px 10px 0px 10px;
+}
+
+.stars-assessment{
+    color: #FFD700;
+    margin: 10px;
+}
+
+
+
+/*Start Style Common question*/
+.common-questions-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C1C1C;
+}
+
+.container-question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.question-panel-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.question-panel-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.common-question h3{
+    color: #f02d46;
+    text-align: start;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.common-question p{
+    color: #cccccc;
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+}
+/*End Style Common question*/
+
+.category-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
