@@ -21,7 +21,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
+
+.navbar.scrolled{
+    background-color: #1c1c1c;
+    transition: 0.5s ease-in-out;
+}
+
 
 .logo img{
     height: 70px;
@@ -83,12 +94,12 @@ body{
     color: var(--color-secudary);
 }
 
-.fa-twitter{
+.fa-github{
     transition: 0.5s;
     cursor: pointer;
 }
 
-.fa-twitter:hover{
+.fa-github:hover{
     color: var(--color-secudary);
 }
 

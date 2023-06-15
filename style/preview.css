@@ -11,15 +11,17 @@
 }
 
 .preview-contet{
-    position: absolute;
+    position: fixed;
     margin-left: 450px;
+    z-index: 2;
 }
 
 .background-blur{
     position: absolute;
     margin-left: -30rem;
+    margin-top: -130px;
     background-color: #1c1c1c69;
-    height: 100px;
+    height: 100%;
     width: 100rem;
     height: 100rem;
     z-index: 1;
