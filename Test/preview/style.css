@@ -1,52 +1,59 @@
+/*
 .evaluation-category{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+*/
 
-.panel-assessment{
+body{
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to left top, #f02d46, #1C1C1C);
+    gap: 30px;
 }
 
-.card-group-assessment{
+.assessment{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.title-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 40px;
+    text-transform: auto;
+}
+
+.assessment-container{
+    padding: 0 10vw;
     display: flex;
-    margin: 25px;
-    gap: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 }
 
-.card-assessment{
-    background-color: #1C1C1C;
-    height: 20rem;
-    width: 15rem;
-    white-space: nowrap;
-    border-radius: 10px;
+.assessment-container::-webkit-scrollbar{
+    display: none;
 }
 
-.btn-slider{
-    position: absolute;
-    background-color: #f02d46;
-    color: #FFFAFA;
-    border: none;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 100%;
-    transition: 0.5s;
-    cursor: pointer;
+.assessment-img img{
+    height: 5rem;
 }
 
-.btn-slider:hover{
-    background-color: #FFFAFA;
-    color: #f02d46;
+.assessment-card{
+    flex:  0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
 }
 
-.btn-right{
-    margin-left: 80rem;
-}
-
-.btn-left{
-    margin-right: 80rem;
+.assessment-img{
+    position: relative;
+    overflow: hidden;
 }
